@@ -5,6 +5,13 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 !.vscode/*.code-snippets
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Local History for Visual Studio Code
 .history/
@@ -16,40 +23,15 @@
 /node_modules
 /.pnp
 .pnp.js
-.yarn/install-state.gz
 
 # testing
 /coverage
-
-# next.js
-/.next/
-/out/
 
 # production
 /build
 
 # misc
 .DS_Store
-*.pem
-
-# No bundled stuff in git
-bin/
-dist/
-lib/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
 .env
 .env.local
 .env.development.local
@@ -57,10 +39,18 @@ yarn-error.log*
 .env.production.local
 .env.development
 .env.production
+npm-debug.log
 
-# vercel
+# No bundled stuff in git
+bin/
+dist/
+dist-ssr
+lib/
+*.local
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
 .vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts

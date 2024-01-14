@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  /* font-feature-settings: "cv01", "cv02", "cv04", "cv11"; */
+  -webkit-font-feature-settings: "ss01" on, "ss02" on, "ss03" on;
+  font-feature-settings: "ss01" on, "ss02" on, "ss03" on;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", Outfit, "Nunito Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #09040a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* fixes the i in Ko-fi */
+  font-variant: no-common-ligatures;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #09040a;
+    background-color: #fafafa;
+  }
+}

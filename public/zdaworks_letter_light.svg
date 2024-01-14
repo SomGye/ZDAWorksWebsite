@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 256 256"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title2">ZDA Works Letter Logo</title>
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath40">
+      <rect
+         style="display:none;fill:#29242a;fill-opacity:1;stroke:none;stroke-width:17;stroke-dasharray:none;stroke-opacity:1"
+         id="rect41"
+         width="256.5"
+         height="25.360695"
+         x="0"
+         y="115"
+         d="m 0,115 h 256.5 v 25.36069 H 0 Z" />
+      <path
+         id="lpe_path-effect41"
+         style="fill:#29242a;fill-opacity:1;stroke:none;stroke-width:17;stroke-dasharray:none;stroke-opacity:1"
+         class="powerclip"
+         d="m -2.5,-2.5 h 260 v 260 H -2.5 Z M 0,115 v 25.36069 H 256.5 V 115 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath9">
+      <rect
+         style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         id="rect9"
+         width="251"
+         height="23.353554"
+         x="2"
+         y="115.64645"
+         d="M 2,115.64645 H 253 V 139 H 2 Z" />
+      <path
+         id="lpe_path-effect9"
+         style="display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+         class="powerclip"
+         d="m -2.5,-2.5 h 260 v 260 H -2.5 Z M 2,115.64645 V 139 h 251 v -23.35355 z" />
+    </clipPath>
+  </defs>
+  <g
+     id="layer1"
+     style="display:none">
+    <rect
+       style="fill:#29242a;fill-opacity:1;stroke:#29242a"
+       id="rect1"
+       width="256"
+       height="256"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="g44"
+     style="display:none">
+    <rect
+       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-opacity:1"
+       id="rect44"
+       width="256"
+       height="256"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="layer2"
+     style="display:none">
+    <rect
+       style="display:none;fill:none;fill-opacity:1;stroke:#fafafa;stroke-opacity:1"
+       id="rect2"
+       width="165"
+       height="165"
+       x="45"
+       y="45" />
+    <rect
+       style="display:none;fill:#29242a;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3"
+       width="132.14687"
+       height="24.807579"
+       x="60"
+       y="115" />
+    <path
+       id="text3"
+       style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#fafafa;stroke:#fafafa"
+       d="M 63.353516,48.166016 V 71.740234 H 159.91406 L 122.45703,115 h 31.73242 L 191.64648,71.740234 V 48.166016 Z m 37.625004,91.640624 -37.625004,43.45313 v 23.57421 H 191.64648 V 183.25977 H 95.085938 l 37.625002,-43.45313 z" />
+  </g>
+  <g
+     id="g43"
+     style="display:inline">
+    <rect
+       style="display:none;fill:none;fill-opacity:1;stroke:#29242a;stroke-opacity:1"
+       id="rect42"
+       width="165"
+       height="165"
+       x="45"
+       y="45" />
+    <rect
+       style="display:none;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect43"
+       width="132.14687"
+       height="24.807579"
+       x="60"
+       y="115" />
+    <path
+       id="path43"
+       style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-opacity:1"
+       d="M 63.353516,48.166016 V 71.740234 H 159.91406 L 122.45703,115 h 31.73242 L 191.64648,71.740234 V 48.166016 Z m 37.625004,91.640624 -37.625004,43.45313 v 23.57421 H 191.64648 V 183.25977 H 95.085938 l 37.625002,-43.45313 z" />
+  </g>
+  <g
+     id="layer3"
+     style="display:none">
+    <circle
+       style="display:none;fill:none;fill-opacity:1;stroke:#fafafa;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
+       id="path2"
+       cx="127.5"
+       cy="127.5"
+       r="117.5" />
+    <path
+       id="path28"
+       style="display:none;fill:none;stroke:#fafafa;stroke-width:15"
+       d="M 244.31445,115.00781 C 237.9301,55.297737 187.55042,10.010017 127.5,10 67.528753,10.115682 17.268412,55.376337 10.892578,115.00781 m -0.0059,24.9043 C 17.224822,199.57753 67.498997,244.88289 127.5,245 187.501,244.88289 237.77518,199.57753 244.11328,139.91211" />
+    <path
+       id="circle39"
+       style="display:inline;fill:none;stroke:#fafafa;stroke-width:15"
+       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z"
+       clip-path="url(#clipPath40)" />
+  </g>
+  <g
+     id="g45"
+     style="display:inline">
+    <circle
+       style="display:none;fill:none;fill-opacity:1;stroke:#29242a;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
+       id="circle44"
+       cx="127.5"
+       cy="127.5"
+       r="117.5" />
+    <path
+       id="circle46"
+       style="display:none;fill:none;stroke:#29242a;stroke-width:15"
+       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z" />
+    <rect
+       style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6"
+       width="250.5"
+       height="23.353554"
+       x="2.5"
+       y="115.64645" />
+    <path
+       id="path8"
+       style="display:inline;fill:none;stroke:#29242a;stroke-width:15"
+       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z"
+       clip-path="url(#clipPath9)" />
+  </g>
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>ZDA Works Letter Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
