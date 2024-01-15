@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ErrorPage from "./ErrorPage.tsx";
+import { RecoilRoot } from "recoil";
 import App from "./App.tsx";
 import "./index.css";
 
@@ -35,7 +37,6 @@ import "@fontsource/plus-jakarta-sans/600-italic.css";
 import "@fontsource/plus-jakarta-sans/600.css";
 import "@fontsource/plus-jakarta-sans/700-italic.css";
 import "@fontsource/plus-jakarta-sans/700.css";
-import ErrorPage from "./ErrorPage.tsx";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <>
-    <RouterProvider router={router} />
+    <RecoilRoot>
+      <RouterProvider router={router} />
+    </RecoilRoot>
   </>
 );

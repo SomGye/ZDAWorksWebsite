@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  /* font-feature-settings: "cv01", "cv02", "cv04", "cv11"; */
-  -webkit-font-feature-settings: "ss01" on, "ss02" on, "ss03" on;
-  font-feature-settings: "ss01" on, "ss02" on, "ss03" on;
-}
+/* html { */
+  /* transition: all 0.20s ease-out; */
+/* } */
 
 :root {
   font-family: "Plus Jakarta Sans", Outfit, "Nunito Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -14,8 +12,8 @@ html {
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #09040a;
+  /* background-color: #151016; */
+  /* color: #fafafafa; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -32,9 +30,9 @@ body {
   min-height: 100vh;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #09040a;
-    background-color: #fafafa;
-  }
-}
+/* @media (prefers-color-scheme: light) { */
+  /* :root { */
+    /* color: #19141afa; */
+    /* background-color: #fafafa; */
+  /* } */
+/* } */
