@@ -19,14 +19,6 @@
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath9">
-      <rect
-         style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-         id="rect9"
-         width="251"
-         height="23.353554"
-         x="2"
-         y="115.64645"
-         d="M 2,115.64645 H 253 V 139 H 2 Z" />
       <path
          id="lpe_path-effect9"
          style="display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
@@ -36,14 +28,6 @@
     <clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath14">
-      <rect
-         style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-         id="rect15"
-         width="251.32809"
-         height="23.818413"
-         x="1.8096863"
-         y="116.18159"
-         d="M 1.8096863,116.18159 H 253.13778 V 140 H 1.8096863 Z" />
       <path
          id="lpe_path-effect15"
          style="display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
@@ -52,122 +36,21 @@
     </clipPath>
   </defs>
   <g
-     id="layer1"
-     style="display:none">
-    <rect
-       style="fill:#29242a;fill-opacity:1;stroke:#29242a"
-       id="rect1"
-       width="256"
-       height="256"
-       x="0"
-       y="0" />
-  </g>
-  <g
-     id="g44"
-     style="display:none">
-    <rect
-       style="fill:#fafafa;fill-opacity:1;stroke:#fafafa;stroke-opacity:1"
-       id="rect44"
-       width="256"
-       height="256"
-       x="0"
-       y="0" />
-  </g>
-  <g
      id="layer2"
      style="display:inline">
-    <rect
-       style="display:none;fill:none;fill-opacity:1;stroke:#fafafa;stroke-opacity:1"
-       id="rect2"
-       width="165"
-       height="165"
-       x="45"
-       y="45" />
-    <rect
-       style="display:none;fill:#29242a;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       id="rect3"
-       width="132.14687"
-       height="24.807579"
-       x="60"
-       y="115" />
     <path
        id="text3"
        style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#fafafa;stroke:#fafafa"
        d="M 63.353516,48.166016 V 71.740234 H 159.91406 L 122.45703,115 h 31.73242 L 191.64648,71.740234 V 48.166016 Z m 37.625004,91.640624 -37.625004,43.45313 v 23.57421 H 191.64648 V 183.25977 H 95.085938 l 37.625002,-43.45313 z" />
   </g>
   <g
-     id="g43"
-     style="display:none">
-    <rect
-       style="display:none;fill:none;fill-opacity:1;stroke:#29242a;stroke-opacity:1"
-       id="rect42"
-       width="165"
-       height="165"
-       x="45"
-       y="45" />
-    <rect
-       style="display:none;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       id="rect43"
-       width="132.14687"
-       height="24.807579"
-       x="60"
-       y="115" />
-    <path
-       id="path43"
-       style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-opacity:1"
-       d="M 63.353516,48.166016 V 71.740234 H 159.91406 L 122.45703,115 h 31.73242 L 191.64648,71.740234 V 48.166016 Z m 37.625004,91.640624 -37.625004,43.45313 v 23.57421 H 191.64648 V 183.25977 H 95.085938 l 37.625002,-43.45313 z" />
-  </g>
-  <g
      id="layer3"
      style="display:inline">
-    <circle
-       style="display:none;fill:none;fill-opacity:1;stroke:#fafafa;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
-       id="path2"
-       cx="127.5"
-       cy="127.5"
-       r="117.5" />
-    <path
-       id="circle9"
-       style="display:none;fill:none;stroke:#fafafa;stroke-width:15"
-       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z" />
-    <rect
-       style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       id="rect13"
-       width="251.32809"
-       height="23.818413"
-       x="1.8096863"
-       y="116.18159" />
     <path
        id="path12"
        style="display:inline;fill:none;stroke:#fafafa;stroke-width:15"
        d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z"
        clip-path="url(#clipPath14)" />
-  </g>
-  <g
-     id="g45"
-     style="display:none">
-    <circle
-       style="display:none;fill:none;fill-opacity:1;stroke:#29242a;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
-       id="circle44"
-       cx="127.5"
-       cy="127.5"
-       r="117.5" />
-    <path
-       id="circle46"
-       style="display:none;fill:none;stroke:#29242a;stroke-width:15"
-       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z" />
-    <rect
-       style="display:none;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-       id="rect6"
-       width="250.5"
-       height="23.353554"
-       x="2.5"
-       y="115.64645" />
-    <path
-       id="path8"
-       style="display:inline;fill:none;stroke:#29242a;stroke-width:15"
-       d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z"
-       clip-path="url(#clipPath9)" />
   </g>
   <metadata
      id="metadata2">
