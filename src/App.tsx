@@ -2,21 +2,17 @@ import * as React from "react";
 import "./App.css";
 import { useRecoilValue } from "recoil";
 import { themeAtom } from "./states/ThemeAtom";
-import ThemeToggle from "./ThemeToggle";
-import zdaWorks_letterDark from "/zdaworks_letter_dark.svg";
-import zdaWorks_letterLight from "/zdaworks_letter_light.svg";
-// import zdaWorks_dark from "/zdaworks_redpink.svg";
 import zdaWorks_dark from "/zdaworks_dark.svg";
-import zdaWorks_blue from "/zdaworks_fractalblue.svg";
 import zdaWorks_light from "/zdaworks_light.svg";
 import zda_dark from "/zerodayanubis_dark.svg";
 import zda_light from "/zerodayanubis_light.svg";
+import Header from "./sections/Header/Header";
 
 type Props = {
   route: string;
 };
 const App = ({ route }: Props) => {
-  const theme = useRecoilValue(themeAtom); // TODO: change Tailwind text colors based on current Theme
+  const theme = useRecoilValue(themeAtom);
 
   React.useEffect(() => {
     if (route === "portfolio") {
@@ -37,46 +33,7 @@ const App = ({ route }: Props) => {
   return (
     <>
       <main className="bg-zdaBG-light dark:bg-zdaBG-dark flex min-h-screen flex-col items-center justify-evenly p-0 xs:px-12 sm:px-24 transition ease-out duration-500">
-        {/* TODO: redo Header using Tailblocks example, and make sure to use ONE instance of ThemeToggle */}
-        <div className="z-10 fixed top-0 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard px-3 py-1 w-full items-center justify-between text-sm lg:flex">
-          <span className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-200/50 bg-gradient-to-b from-zdaBG-lightCard pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-900 dark:bg-zdaBG-darkCard dark:from-inherit lg:static lg:w-auto  lg:rounded-lg lg:border lg:bg-zdaBG-lightCard lg:p-4 lg:dark:bg-zdaBG-darkCard text-zdaText-dark dark:text-zdaText-light pointer-events-none select-none">
-            Welcome to the Hub of
-            <span className="font-bold ml-1 tracking-wide">Abstract Media Creation</span>
-          </span>
-          <div className="fixed bottom-0 left-0 hidden h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:flex lg:static lg:h-auto lg:w-auto lg:bg-none">
-            <p className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0">
-              <img
-                src={
-                  theme === "dark" ? zdaWorks_letterDark : zdaWorks_letterLight
-                }
-                alt="ZDAWorks Z"
-                className="pointer-events-none select-none"
-                width={36}
-                height={36}
-              />
-            </p>
-          </div>
-          <div className="fixed bottom-0 left-0 flex h-auto w-full items-end justify-center bg-gradient-to-b from-zdaBG-lightCard backdrop-blur-2xl dark:md:border-t dark:border-neutral-900 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:h-auto lg:w-auto lg:bg-transparent lg:bg-none dark:lg:bg-transparent dark:lg:border-t-0 text-zdaText-dark dark:text-zdaText-light">
-            <a
-              className="select-none flex place-items-center gap-2 p-4 pointer-events-auto lg:p-0"
-              href="https://www.zerodayanubis.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              By{" "}
-              <img
-                src={theme === "dark" ? zda_dark : zda_light}
-                alt="ZeroDayAnubis"
-                className="dark"
-                width={243}
-                height={40}
-              />
-            </a>
-          </div>
-          <div className="hidden lg:flex lg:static lg:w-auto lg:p-4">
-            <ThemeToggle />
-          </div>
-        </div>
+        <Header />
         <div className="mt-12 sm:mt-0 relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] min-w-[90vw] max-w-[95vw]">
           {/* Card Box */}
           <div className="flex flex-col items-center relative overflow-hidden bg-zdaBG-lightCard dark:bg-zdaBG-darkCard w-full rounded-lg md:block">
@@ -91,7 +48,10 @@ const App = ({ route }: Props) => {
                     height={67}
                   />
                   <p className="mt-4 text-lg tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
-                    Welcome to the Hub of &nbsp; <span className="font-semibold tracking-wide">Abstract Media Creation</span>
+                    Welcome to the Hub of &nbsp;{" "}
+                    <span className="font-semibold tracking-wide">
+                      Abstract Media Creation
+                    </span>
                   </p>
                   <p className="mt-4 text-lg tracking-wide text-neutral-700 dark:text-neutral-400 max-w-[24ch] align-center italic pointer-events-none select-none">
                     Explore the world of abstract arts, logos, wallpapers, and
