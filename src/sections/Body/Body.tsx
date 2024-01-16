@@ -22,19 +22,30 @@ const Body = () => {
                   width={294}
                   height={67}
                 />
-                <p className="mt-4 text-lg tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
-                  Welcome to the Hub of &nbsp;{" "}
-                  <span className="font-semibold tracking-wide">
+                <p className="mt-4 font-outfit text-xl tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
+                  Welcome to the Hub of{" "}
+                  <span className="font-medium tracking-wide ml-[1px]">
                     Abstract Media Creation
                   </span>
                 </p>
-                <p className="mt-4 text-lg tracking-wide text-neutral-700 dark:text-neutral-400 max-w-[24ch] align-center italic pointer-events-none select-none">
+                <p className="mt-4 font-light text-md tracking-wide text-neutral-700 dark:text-neutral-400 max-w-[24ch] align-center italic pointer-events-none select-none">
                   Explore the world of abstract arts, logos, wallpapers, and
                   more
                 </p>
-                <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-500 font-light pointer-events-none select-none">
-                  By&nbsp;&nbsp; ⌞ZERODAYANUBIS⌝
-                </p>
+                {/* TODO: see if ZERODAYANUBIS name SVG would look better here */}
+                <a
+                  className="block w-min"
+                  href="https://www.zerodayanubis.com/portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="mt-4 font-outfit font-light text-sm text-neutral-600 dark:text-neutral-500 pointer-events-none select-none">
+                    By&nbsp;&nbsp;
+                    <span className="text-lg ml-[1px] drop-shadow-name-sm-light dark:drop-shadow-name-sm-dark">
+                      ⌞ZERODAYANUBIS⌝
+                    </span>
+                  </p>
+                </a>
               </div>
               <div>
                 <div className="mt-10">
