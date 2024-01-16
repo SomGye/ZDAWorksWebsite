@@ -63,8 +63,8 @@ export default {
       dropShadow: {
         'logo-light': '20px 8px 4px #19141a35',
         'logo-dark': '8px 4px 6px #606060b5',
-        'name-sm-light': '-2px 0 1px #19141a4a',
-        'name-sm-dark': '-4px 0 3px #6060609a',
+        'name-sm-light': '-2px 0 1px #19141a2a',
+        'name-sm-dark': '-4px 0 3px #6060607a',
       },
       fontFamily: {
         'outfit': 'Outfit',
