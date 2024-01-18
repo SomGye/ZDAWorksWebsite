@@ -31,8 +31,6 @@ const App = ({ route }: Props) => {
         <Body />
         <Footer />
       </main>
-      {/* TODO: fix layout for mobile phones */}
-      {/* TODO: change from Dark Mode Switch to Icon Button with Dropdown menu */}
       {/* TODO: detect when prefers-color-scheme changes in OS and dynamically update */}
     </>
   );

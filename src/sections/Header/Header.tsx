@@ -3,7 +3,7 @@ import { useRecoilValue } from "recoil";
 import { themeAtom } from "../../states/ThemeAtom";
 import zdaWorks_letterDark from "/zdaworks_letter_dark.svg";
 import zdaWorks_letterLight from "/zdaworks_letter_light.svg";
-import ThemeToggle from "../../ThemeToggle";
+import ThemeMenu from "../../ThemeMenu";
 
 const Header = () => {
   const theme = useRecoilValue(themeAtom);
@@ -19,7 +19,7 @@ const Header = () => {
         />
         <div className="hidden xxs:block">ZDA Works</div>
         <div className="cursor-pointer lg:flex lg:static lg:w-auto">
-          <ThemeToggle />
+          <ThemeMenu />
         </div>
       </span>
     </>
