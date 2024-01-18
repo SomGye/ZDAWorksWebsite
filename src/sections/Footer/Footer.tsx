@@ -20,8 +20,8 @@ const Footer = () => {
             src={theme === "dark" ? zda_dark : zda_light}
             alt="ZDAWorks Z"
             className="ml-[2px] max-w-[50vw] pointer-events-none select-none"
-            width={243}
-            height={40}
+            width={219}
+            height={36}
           />
         </a>
       </span>
