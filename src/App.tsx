@@ -31,7 +31,6 @@ const App = ({ route }: Props) => {
         <Body />
         <Footer />
       </main>
-      {/* TODO: detect when prefers-color-scheme changes in OS and dynamically update */}
     </>
   );
 };

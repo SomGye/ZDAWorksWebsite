@@ -13,7 +13,8 @@ import {
 const ThemeMenu = () => {
   const [theme, setTheme] = useRecoilState(themeAtom);
   const [open, setOpen] = React.useState(false);
-  const [option, setOption] = React.useState("dark"); // dark/light/system
+  const [option, setOption] = React.useState("system"); // dark/light/system
+  const systemMatch = window.matchMedia("(prefers-color-scheme: dark)");
 
   const changeTheme = (newTheme: string) => {
     if (newTheme === "dark") {
@@ -38,7 +39,7 @@ const ThemeMenu = () => {
       // Set prefs
       localStorage.setItem("theme", "system");
       // Set body style and vars
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      if (systemMatch.matches) {
         document.documentElement.classList.add("dark");
         setTheme("dark");
       } else {
@@ -67,7 +68,7 @@ const ThemeMenu = () => {
       // Set system theme for next time
       localStorage.setItem("theme", "system");
       // Use matchMedia to get system theme
-      if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      if (systemMatch.matches) {
         document.documentElement.classList.add("dark");
         setOption("dark");
         setTheme("dark");
@@ -79,38 +80,35 @@ const ThemeMenu = () => {
     }
   };
 
+  const themeChangeHandler = React.useCallback((evt: MediaQueryListEvent) => {
+    // NOTE: Assume match on "dark", since "light" is default for 'prefers-color-scheme'
+    if (evt.matches) {
+      console.log("AUTO CHANGE TO DARK");
+      document.documentElement.classList.add("dark");
+      setTheme("dark");
+    } else {
+      console.log("AUTO CHANGE TO LIGHT");
+      document.documentElement.classList.remove("dark");
+      setTheme("light");
+    }
+  }, []);
+
   React.useEffect(() => {
     // Detect preferred Color Scheme from user or system
     detectColorScheme();
   }, []);
 
   React.useEffect(() => {
-    // TODO: figure out how to dynamically switch themes when system changes color
-    // // INIT
-    // if (window
-    //   .matchMedia("(prefers-color-scheme: dark)")
-    //   .matches) {
-    //     console.log("Dark detected on init");
-    //   } else {
-    //     console.log("Light detected on init");
-    //   }
-    //   // ON CHANGE
-    // window
-    //   .matchMedia("(prefers-color-scheme: dark)")
-    //   .addEventListener("change", ({ matches }) => {
-    //     if (matches) {
-    //       console.log("change to dark mode!");
-    //     } else {
-    //       console.log("change to light mode!");
-    //     }
-    //   });
     // Check for system option
     if (option === "system") {
-      // TODO: Switch to auto mode
-      console.log("setting auto mode");
+      // Switch to auto mode
+      console.log("Setting auto mode ON");
+      systemMatch.addEventListener("change", themeChangeHandler, true);
     } else {
-      // TODO: Switch off auto mode
-      console.log("turning off auto mode");
+      // Switch off auto mode
+      // TODO: Figure out how to get auto mode to actually turn off...
+      console.log("Setting auto mode OFF");
+      systemMatch.removeEventListener("change", themeChangeHandler, true);
     }
   }, [option]);
 
