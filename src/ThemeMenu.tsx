@@ -12,6 +12,7 @@ import {
 
 const ThemeMenu = () => {
   const [theme, setTheme] = useRecoilState(themeAtom);
+  const [isAutoMode, setAutoMode] = React.useState(true);
   const [open, setOpen] = React.useState(false);
   const [option, setOption] = React.useState("system"); // dark/light/system
   const systemMatch = window.matchMedia("(prefers-color-scheme: dark)");
@@ -70,28 +71,30 @@ const ThemeMenu = () => {
       // Use matchMedia to get system theme
       if (systemMatch.matches) {
         document.documentElement.classList.add("dark");
-        setOption("dark");
         setTheme("dark");
       } else {
         document.documentElement.classList.remove("dark");
-        setOption("light");
+        setTheme("light");
+      }
+      setOption("system");
+    }
+  };
+
+  const autoModeHandler = (evt: MediaQueryListEvent) => {
+    // Read Auto Mode on/off setting from global Window obj
+    let windowObj = window as any;
+    const autoModeSetting = windowObj.autoModeSetting;
+    if (autoModeSetting) {
+      // NOTE: Assume match on "dark", since "light" is default for 'prefers-color-scheme'
+      if (evt.matches) {
+        document.documentElement.classList.add("dark");
+        setTheme("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
         setTheme("light");
       }
     }
   };
-
-  const themeChangeHandler = React.useCallback((evt: MediaQueryListEvent) => {
-    // NOTE: Assume match on "dark", since "light" is default for 'prefers-color-scheme'
-    if (evt.matches) {
-      console.log("AUTO CHANGE TO DARK");
-      document.documentElement.classList.add("dark");
-      setTheme("dark");
-    } else {
-      console.log("AUTO CHANGE TO LIGHT");
-      document.documentElement.classList.remove("dark");
-      setTheme("light");
-    }
-  }, []);
 
   React.useEffect(() => {
     // Detect preferred Color Scheme from user or system
@@ -101,16 +104,32 @@ const ThemeMenu = () => {
   React.useEffect(() => {
     // Check for system option
     if (option === "system") {
-      // Switch to auto mode
-      console.log("Setting auto mode ON");
-      systemMatch.addEventListener("change", themeChangeHandler, true);
+      // Turn on Auto Mode
+      setAutoMode(true);
     } else {
-      // Switch off auto mode
-      // TODO: Figure out how to get auto mode to actually turn off...
-      console.log("Setting auto mode OFF");
-      systemMatch.removeEventListener("change", themeChangeHandler, true);
+      // Turn off Auto Mode
+      setAutoMode(false);
     }
   }, [option]);
+
+  React.useEffect(() => {
+    if (isAutoMode) {
+      // Set global window setting for event handler
+      let windowObj = window as any;
+      windowObj.autoModeSetting = true;
+      // Setup event handler for theme switch
+      systemMatch.removeEventListener("change", autoModeHandler, true);
+      systemMatch.addEventListener("change", autoModeHandler, true);
+    } else {
+      // Set global window setting for event handler
+      let windowObj = window as any;
+      windowObj.autoModeSetting = false;
+      // Attempt to clear event handler
+      return () => {
+        systemMatch.removeEventListener("change", autoModeHandler, true);
+      };
+    }
+  }, [isAutoMode]);
 
   return (
     <>
