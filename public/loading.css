@@ -12,7 +12,7 @@ div#loadingpage {
   align-items: center;
   position: absolute;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #29242a;
+  background-color: #0b0a0d;
   font-family: Karla, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -35,8 +35,8 @@ div.SpinnerBox {
   height: 64px;
   width: 64px;
   animation: rotate_3922 1.2s linear infinite;
-  background-color: #49447a;
-  background-image: linear-gradient(#49447a, #6f347a, #39449a);
+  background-color: #0b62ff;
+  background-image: linear-gradient(#2284ff, #0b62ff, #044af1);
   z-index: 999;
 
   &:focus-visible {
@@ -49,8 +49,8 @@ div.SpinnerBox span {
   border-radius: 50%;
   height: 100%;
   width: 100%;
-  background-color: #49447a;
-  background-image: linear-gradient(#49447a, #6f347a, #39449a);
+  background-color: #0b62ff;
+  background-image: linear-gradient(#2284ff, #0b62ff, #044af1);
 }
 
 div.SpinnerBox span:nth-of-type(1) {
@@ -76,7 +76,7 @@ div.SpinnerBox::after {
   left: 10px;
   right: 10px;
   bottom: 10px;
-  background-color: #29242a1a;
+  background-color: #0b0a0d1a;
   border: solid 5px #fafafaea;
   border-radius: 50%;
 }
