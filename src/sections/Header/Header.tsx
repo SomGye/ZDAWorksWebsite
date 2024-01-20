@@ -11,11 +11,11 @@ const Header = () => {
   const [, setLogoPage] = useRecoilState(logoAtom);
   return (
     <>
-      <span className="z-40 max-h-[18vh] fixed left-0 top-0 flex w-full items-center justify-between border-b border-gray-200 rounded-md bg-gradient-to-t from-zdaBlue-500/5 p-4 backdrop-blur-2xl dark:border-neutral-900 dark:bg-zdaBG-darkCard dark:from-zdaBlue-600/5 lg:flex  text-zdaText-dark dark:text-zdaText-light cursor-default select-none">
+      <span className="z-40 max-h-[18vh] fixed left-0 top-0 flex w-full items-center justify-between border-b border-gray-200 rounded-md bg-gradient-to-t from-zdaBlue-500/5 p-4 backdrop-blur-2xl dark:border-neutral-900 dark:bg-zdaBG-darkCard dark:from-zdaBlue-600/5 lg:flex text-zdaText-dark dark:text-zdaText-light cursor-default select-none">
         <img
           src={theme === "dark" ? zdaWorks_letterDark : zdaWorks_letterLight}
-          alt="ZDAWorks Z"
-          title="ZDAWorks Z"
+          alt="ZDAWorks Z Logo"
+          title="Click me to see ZDAWorks logos"
           className="cursor-pointer pointer-events-auto select-none transition ease-out duration-300 hover:drop-shadow-z-logo-hover-light dark:hover:drop-shadow-z-logo-hover-dark"
           width={36}
           height={36}
