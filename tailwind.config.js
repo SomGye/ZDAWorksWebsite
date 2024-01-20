@@ -68,6 +68,8 @@ export default {
         'logo-dark': '8px 4px 6px #606060b5',
         'name-sm-light': '-2px 0 1px #19141a2a',
         'name-sm-dark': '-4px 0 3px #6060607a',
+        'z-logo-hover-light': '0 0 5px #0f245ca0',
+        'z-logo-hover-dark': '0 0 5px #b7ddffd0',
       },
       fontFamily: {
         'outfit': 'Outfit',
