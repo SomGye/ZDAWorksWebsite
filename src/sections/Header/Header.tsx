@@ -19,10 +19,11 @@ const Header = () => {
           className="cursor-pointer pointer-events-auto select-none transition ease-out duration-300 hover:drop-shadow-z-logo-hover-light dark:hover:drop-shadow-z-logo-hover-dark 3xl:w-[42px] 3xl:h-[42px] 4xl:w-[48px] 4xl:h-[48px] 4k:w-[64px] 4k:h-[64px]"
           width={36}
           height={36}
-          onClick={() => setLogoPage(true)}
-          // TODO: use window.location.replace("https://www.zda.works/logo") instead in production
+          onClick={() => window.location.replace("/logo")}
         />
-        <div className="hidden xxs:block 3xl:text-xl 4xl:text-2xl 4k:text-3xl">ZDA Works</div>
+        <div className="hidden xxs:block 3xl:text-xl 4xl:text-2xl 4k:text-3xl">
+          ZDA Works
+        </div>
         <div className="cursor-pointer lg:flex lg:static lg:w-auto">
           <ThemeMenu />
         </div>
