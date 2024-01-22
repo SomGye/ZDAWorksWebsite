@@ -18,6 +18,15 @@
      id="defs1">
     <clipPath
        clipPathUnits="userSpaceOnUse"
+       id="clipPath40">
+      <path
+         id="lpe_path-effect41"
+         style="fill:#29242a;fill-opacity:1;stroke:none;stroke-width:17;stroke-dasharray:none;stroke-opacity:1"
+         class="powerclip"
+         d="m -2.5,-2.5 h 260 v 260 H -2.5 Z M 0,115 v 25.36069 H 256.5 V 115 Z" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
        id="clipPath9">
       <path
          id="lpe_path-effect9"
@@ -25,32 +34,23 @@
          class="powerclip"
          d="m -2.5,-2.5 h 260 v 260 H -2.5 Z M 2,115.64645 V 139 h 251 v -23.35355 z" />
     </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath14">
-      <path
-         id="lpe_path-effect15"
-         style="display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
-         class="powerclip"
-         d="m -2.5,-2.5 h 260 v 260 H -2.5 Z M 1.8096863,116.18159 V 140 H 253.13778 v -23.81841 z" />
-    </clipPath>
   </defs>
   <g
-     id="layer2"
+     id="g43"
      style="display:inline">
     <path
-       id="text3"
-       style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#fafafa;stroke:#fafafa"
+       id="path43"
+       style="font-weight:600;font-size:226.667px;font-family:Urbanist;-inkscape-font-specification:'Urbanist Semi-Bold';letter-spacing:0px;display:inline;fill:#29242a;fill-opacity:1;stroke:#29242a;stroke-opacity:1"
        d="M 63.353516,48.166016 V 71.740234 H 159.91406 L 122.45703,115 h 31.73242 L 191.64648,71.740234 V 48.166016 Z m 37.625004,91.640624 -37.625004,43.45313 v 23.57421 H 191.64648 V 183.25977 H 95.085938 l 37.625002,-43.45313 z" />
   </g>
   <g
-     id="layer3"
+     id="g45"
      style="display:inline">
     <path
-       id="path12"
-       style="display:inline;fill:none;stroke:#fafafa;stroke-width:15"
+       id="path8"
+       style="display:inline;fill:none;stroke:#29242a;stroke-width:15"
        d="M 245,127.5 A 117.5,117.5 0 0 1 127.5,245 117.5,117.5 0 0 1 10,127.5 117.5,117.5 0 0 1 127.5,10 117.5,117.5 0 0 1 245,127.5 Z"
-       clip-path="url(#clipPath14)" />
+       clip-path="url(#clipPath9)" />
   </g>
   <metadata
      id="metadata2">
