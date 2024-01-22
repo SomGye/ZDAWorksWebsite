@@ -138,7 +138,7 @@ const ThemeMenu = () => {
           {/* Button Section */}
           <DropdownMenu.Trigger asChild>
             <button
-              className="rounded-full w-[26px] h-[26px] mr-2 inline-flex items-center justify-center text-zdaBlue-600 dark:text-zdaBlue-500 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-slate-400 hover:shadow-slate-400/25 dark:shadow-zdaBlue-500/60 dark:hover:shadow-zdaBlue-500/25 outline outline-1 outline-zdaBlue-500/25 dark:outline-zdaBlue-500/15 hover:bg-zdaBlue-500/25 dark:hover:bg-zdaBlue-400/25 transition ease-out duration-300"
+              className="rounded-full w-[26px] h-[26px] mr-2 inline-flex items-center justify-center text-zdaBlue-600 dark:text-zdaBlue-500 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-slate-400 hover:shadow-slate-400/25 dark:shadow-zdaBlue-500/60 dark:hover:shadow-zdaBlue-500/25 outline outline-1 outline-zdaBlue-500/25 dark:outline-zdaBlue-500/15 hover:bg-zdaBlue-500/25 dark:hover:bg-zdaBlue-400/25 transition ease-out duration-300 3xl:w-[31px] 3xl:h-[31px] 4xl:w-[34px] 4xl:h-[34px] 4k:w-[40px] 4k:h-[40px]"
               aria-label="Theme Menu"
               title="Theme Menu"
               onClick={() => setOpen((prev) => !prev)}
@@ -155,25 +155,31 @@ const ThemeMenu = () => {
               onInteractOutside={() => setOpen(false)}
             >
               <DropdownMenu.Item
-                className="group pb-[1px] my-2 md:my-0 text-md md:text-sm leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
+                className="group pb-[1px] my-2 md:my-0 text-base 3xl:text-lg 4xl:text-2xl 4k:text-3xl lg:py-3 3xl:py-4 4xl:py-6 4k:py-8 lg:px-6 3xl:px-8 4xl:px-10 4k:px-12 leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-md 3xl:rounded-lg flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
                 onClick={() => changeTheme("dark")}
               >
-                <span className="mr-2 mt-[1px]">{darkMenuIcon}</span>
+                <span className="mr-2 mt-[1px] 4xl:mr-3 4k:mr-4">
+                  {darkMenuIcon}
+                </span>
                 Dark
               </DropdownMenu.Item>
               <DropdownMenu.Item
-                className="group pb-[1px] my-2 md:my-0 text-md md:text-sm leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
+                className="group pb-[1px] my-2 md:my-0 text-base 3xl:text-lg 4xl:text-2xl 4k:text-3xl lg:py-3 3xl:py-4 4xl:py-6 4k:py-8 lg:px-6 3xl:px-8 4xl:px-10 4k:px-12 leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-md 3xl:rounded-lg flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
                 onClick={() => changeTheme("light")}
               >
-                <span className="mr-2 mt-[1px]">{lightMenuIcon}</span>
+                <span className="mr-2 mt-[1px] 4xl:mr-3 4k:mr-4">
+                  {lightMenuIcon}
+                </span>
                 Light
               </DropdownMenu.Item>
               <DropdownMenu.Separator className="h-[1px] m-1 bg-zdaBlue-600/20 dark:bg-zdaBlue-400/20" />
               <DropdownMenu.Item
-                className="group pb-[1px] my-2 md:my-0 text-md md:text-sm leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-[3px] flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
+                className="group pb-[1px] my-2 md:my-0 text-base 3xl:text-lg 4xl:text-2xl 4k:text-3xl lg:py-3 3xl:py-4 4xl:py-6 4k:py-8 lg:px-6 3xl:px-8 4xl:px-10 4k:px-12 leading-none text-zdaBlue-600/90 dark:text-zdaBlue-450 rounded-md 3xl:rounded-lg flex items-center h-[25px] px-[5px] relative pl-[25px] select-none outline-none data-[highlighted]:bg-zdaBlue-600/80 data-[highlighted]:text-zdaBlue-50 dark:data-[highlighted]:bg-zdaBlue-500/80 dark:data-[highlighted]:text-zinc-950"
                 onClick={() => changeTheme("system")}
               >
-                <span className="mr-2 mt-[1px]">{sysMenuIcon}</span>
+                <span className="mr-2 mt-[1px] 4xl:mr-3 4k:mr-4">
+                  {sysMenuIcon}
+                </span>
                 System
               </DropdownMenu.Item>
               <DropdownMenu.Arrow className="fill-zdaBG-lighterCard dark:fill-zdaBlue-1000" />
