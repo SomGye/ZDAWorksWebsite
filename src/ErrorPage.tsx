@@ -14,7 +14,7 @@ const ErrorPage = () => {
   return (
     <div className="flex justify-center w-full h-full bg-zdaBG-light dark:bg-zdaBG-dark">
       {/* NOTE: ThemeMenu needed here to detect theme separately, since this page bypasses App */}
-      <div className="cursor-pointer absolute top-0 left-1/2 -translate-x-2/4 mr-0 mt-3 lg:left-auto lg:translate-x-0 lg:right-0 lg:mr-6">
+      <div className="cursor-pointer focus-visible:outline-none absolute top-0 left-1/2 -translate-x-2/4 mr-0 mt-3 lg:left-auto lg:translate-x-0 lg:right-0 lg:mr-6">
         <ThemeMenu />
       </div>
       <div className="flex flex-col sm:flex-row items-center justify-center">

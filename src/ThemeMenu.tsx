@@ -133,7 +133,7 @@ const ThemeMenu = () => {
 
   return (
     <>
-      <div className="inline-flex items-center">
+      <div className="inline-flex items-center focus-visible:outline-none">
         <DropdownMenu.Root open={open}>
           {/* Button Section */}
           <DropdownMenu.Trigger asChild>
