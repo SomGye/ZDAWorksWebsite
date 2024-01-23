@@ -36,7 +36,7 @@ const LogoPage = () => {
           />
           <div className="w-full border-t-2 border-zdaBlue-450/25 md:scale-[1.1] lg:scale-[1.2]" />
           <button
-            className="inline-flex items-center justify-between w-full pt-[6px] pb-[6px] pl-4 pr-4  md:scale-[1.1] lg:scale-[1.2] rounded-md bg-gradient-to-l from-zdaRed-600 to-zdaBlue-500/95 text-[15px] 3xl:text-lg 4xl:text-xl 4k:text-2xl text-gray-200 font-medium tracking-wider transition ease-out duration-300 motion-reduce:transition-none hover:text-gray-100 hover:bg-gradient-to-l hover:from-zdaRed-600/80 hover:to-zdaBlue-500/80 select-none"
+            className="inline-flex items-center justify-between w-full pt-[6px] pb-[6px] pl-4 pr-4  md:scale-[1.1] lg:scale-[1.2] rounded-md bg-gradient-to-l from-zdaRed-600 to-zdaBlue-500/95 text-[15px] 3xl:text-lg 4xl:text-xl 4k:text-2xl text-gray-200 font-medium tracking-wider transition ease-out duration-300 motion-reduce:transition-none hover:text-gray-100 hover:bg-gradient-to-l hover:from-zdaRed-600/80 hover:to-zdaBlue-500/80 active:from-zdaRed-700/90 active:to-zdaBlue-600/90 select-none"
             onClick={() => window.location.replace("/")}
           >
             <span className="inline-block mr-2 transition-transform group-hover:-translate-x-1 motion-reduce:transform-none">

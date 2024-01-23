@@ -138,7 +138,7 @@ const ThemeMenu = () => {
           {/* Button Section */}
           <DropdownMenu.Trigger asChild>
             <button
-              className="rounded-full w-[26px] h-[26px] inline-flex items-center justify-center text-zdaBlue-600 dark:text-zdaBlue-500 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-slate-400 hover:shadow-slate-400/25 dark:shadow-zdaBlue-500/60 dark:hover:shadow-zdaBlue-500/25 outline outline-1 outline-zdaBlue-500/25 dark:outline-zdaBlue-500/15 hover:bg-zdaBlue-500/25 dark:hover:bg-zdaBlue-400/25 transition ease-out duration-300 3xl:w-[31px] 3xl:h-[31px] 4xl:w-[34px] 4xl:h-[34px] 4k:w-[40px] 4k:h-[40px]"
+              className="rounded-full w-[26px] h-[26px] inline-flex items-center justify-center text-zdaBlue-600 dark:text-zdaBlue-500 bg-zdaBG-lightCard dark:bg-zdaBG-darkCard shadow-[0_1px_8px] shadow-slate-400 hover:shadow-slate-400/25 dark:shadow-zdaBlue-500/60 dark:hover:shadow-zdaBlue-500/25 outline outline-1 outline-zdaBlue-500/25 dark:outline-zdaBlue-500/15 hover:bg-zdaBlue-500/25 dark:hover:bg-zdaBlue-400/25 active:bg-zdaBlue-400/50 dark:active:bg-zdaBlue-500/50 transition ease-out duration-300 3xl:w-[31px] 3xl:h-[31px] 4xl:w-[34px] 4xl:h-[34px] 4k:w-[40px] 4k:h-[40px]"
               aria-label="Theme Menu"
               title="Theme Menu"
               onClick={() => setOpen((prev) => !prev)}
