@@ -59,14 +59,14 @@ const Body = () => {
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                             <img
-                              src="/assets/A_Visual_Violation-800px.jpg"
+                              src="/assets/A_Visual_Violation-600px-c7.jpg"
                               alt="Art: A Visual Violation"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/The_Chroma_Passage-800px.jpg"
+                              src="/assets/The_Chroma_Passage-600px-c7.jpg"
                               alt="Art: The Chroma Passage"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
@@ -75,21 +75,21 @@ const Body = () => {
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/Mark_of_Manifestation-800px.jpg"
+                              src="/assets/Mark_of_Manifestation-600px-c7.jpg"
                               alt="Art: The Mark of Manifestation"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/A_Reflection_of_Self-800px.jpg"
+                              src="/assets/A_Reflection_of_Self-600px-c7.jpg"
                               alt="Art: A Reflection of Self"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/A_System_of_Structure-800px.jpg"
+                              src="/assets/A_System_of_Structure-600px-c7.jpg"
                               alt="Art: A System of Structure"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
@@ -98,14 +98,14 @@ const Body = () => {
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/The_Crux_of_Crisis-800px.jpg"
+                              src="/assets/The_Crux_of_Crisis-600px-c7.jpg"
                               alt="Art: The Crux of Crisis"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
-                              src="/assets/Helical_Frenzy-800px.jpg"
+                              src="/assets/Helical_Frenzy-600px-c7.jpg"
                               alt="Art: Helical Frenzy"
                               className="h-full w-full object-cover object-center pointer-events-none select-none"
                             />
