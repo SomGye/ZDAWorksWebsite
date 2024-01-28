@@ -7,6 +7,22 @@ import { rightArrowBigIcon } from "../../icons";
 
 const Body = () => {
   const theme = useRecoilValue(themeAtom);
+
+  /**
+   * On image load, show the base img and hide the blur img.
+   * @param imgId unique className id of img
+   */
+  const loadImgHandler = (imgId: string) => {
+    const baseImg = document.querySelector("img." + imgId) as any;
+    if (baseImg) {
+      baseImg.classList.remove("hidden");
+    }
+    const blurImg = document.querySelector("img." + imgId + "b") as any;
+    if (blurImg) {
+      blurImg.classList.add("hidden");
+    }
+  };
+
   return (
     <div className="grid content-center items-center justify-center justify-items-center gap-5 sm:gap-[56px] lg:gap-[64px] pt-12 pb-24 sm:py-16 md:py-20">
       {/* Container for Card and Grid */}
@@ -59,55 +75,97 @@ const Body = () => {
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                             <img
+                              src="/assets/A_Visual_Violation-600px-c7-blur3x.jpg"
+                              alt="Art: A Visual Violation"
+                              className="img01b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img01")}
                               src="/assets/A_Visual_Violation-600px-c7.jpg"
                               alt="Art: A Visual Violation"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img01 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/The_Chroma_Passage-600px-c7-blur3x.jpg"
+                              alt="Art: The Chroma Passage"
+                              className="img02b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img02")}
                               src="/assets/The_Chroma_Passage-600px-c7.jpg"
                               alt="Art: The Chroma Passage"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img02 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                         </div>
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/Mark_of_Manifestation-600px-c7-blur3x.jpg"
+                              alt="Art: The Mark of Manifestation"
+                              className="img03b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img03")}
                               src="/assets/Mark_of_Manifestation-600px-c7.jpg"
                               alt="Art: The Mark of Manifestation"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img03 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/A_Reflection_of_Self-600px-c7-blur3x.jpg"
+                              alt="Art: A Reflection of Self"
+                              className="img04b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img04")}
                               src="/assets/A_Reflection_of_Self-600px-c7.jpg"
                               alt="Art: A Reflection of Self"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img04 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/A_System_of_Structure-600px-c7-blur3x.jpg"
+                              alt="Art: A System of Structure"
+                              className="img05b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img05")}
                               src="/assets/A_System_of_Structure-600px-c7.jpg"
                               alt="Art: A System of Structure"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img05 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                         </div>
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/The_Crux_of_Crisis-600px-c7-blur3x.jpg"
+                              alt="Art: The Crux of Crisis"
+                              className="img06b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img06")}
                               src="/assets/The_Crux_of_Crisis-600px-c7.jpg"
                               alt="Art: The Crux of Crisis"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img06 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                           <div className="h-64 w-44 overflow-hidden rounded-lg">
                             <img
+                              src="/assets/Helical_Frenzy-600px-c7-blur3x.jpg"
+                              alt="Art: Helical Frenzy"
+                              className="img07b z-20 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                            />
+                            <img
+                              onLoad={() => loadImgHandler("img07")}
                               src="/assets/Helical_Frenzy-600px-c7.jpg"
                               alt="Art: Helical Frenzy"
-                              className="h-full w-full object-cover object-center pointer-events-none select-none"
+                              className="hidden img07 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
                             />
                           </div>
                         </div>
