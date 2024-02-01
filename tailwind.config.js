@@ -72,7 +72,7 @@ export default {
         'logo-red': '8px 4px 6px #ff00379a',
         'name-sm-light': '-2px 0 1px #19141a2a',
         'name-sm-dark': '-4px 0 3px #6060607a',
-        'z-logo-hover-light': '0 0 5px #2284ffd0',
+        'z-logo-hover-light': '0 0 16px #2284ff',
         'z-logo-hover-dark': '0 0 5px #b7ddfff0',
       },
       fontFamily: {
