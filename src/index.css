@@ -11,8 +11,8 @@
 /* -- */
 
 :root {
-  font-family: "Plus Jakarta Sans", Outfit, system-ui, Avenir,
-    Helvetica, Arial, sans-serif;
+  font-family: "Plus Jakarta Sans", Outfit, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -31,3 +31,36 @@ body {
   min-width: 1px;
   min-height: 100vh;
 }
+
+/* CSS ADDENDUM */
+.btn-logopage {
+  transition: background-image 0.3s ease-out;
+  &:hover .btn-logopage-helper {
+    opacity: 1;
+  }
+  &:active .btn-logopage-helper {
+    opacity: 0;
+  }
+  &:active .btn-logopage-helper-active {
+    opacity: 1;
+  }
+}
+
+.btn-logopage-helper {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.45s ease-out;
+}
+
+.btn-logopage-helper-active {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.2s ease-out;
+}
+/* -- */

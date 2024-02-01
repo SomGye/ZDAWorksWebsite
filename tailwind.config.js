@@ -7,6 +7,14 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      backgroundImage: {
+        logoBtnDark: 'linear-gradient(240deg, #2284ff, #0b62ff 25%, #ff0048 75%, #ff0037)',
+        logoBtnLight: 'linear-gradient(240deg, #2284ff, #0b62ff 25%, #ff0059 75%, #ff0048)',
+        logoBtnHelperDark: 'linear-gradient(189deg, #1779e4, #0057e4 25%, #e4003d 75%, #e4002c)',
+        logoBtnHelperLight: 'linear-gradient(189deg, #2d8fff, #166dff 25%, #ff0b53 75%, #ff0b42)',
+        logoBtnHelperActiveDark: 'linear-gradient(187deg, #4b0628, #881646 25%, #e4003d 75%, #e4002c)',
+        logoBtnHelperActiveLight: 'linear-gradient(187deg, #85c8ff, #4ca9ff 25%, #2284ff 75%, #0b62ff)',
+      },
       colors: {
         zdaBG: {
           dark: '#0b0a0d',
@@ -28,7 +36,7 @@ export default {
           300: '#f2a1a3',
           400: '#ea6c76',
           500: '#e43f58',
-          600: '#ff0037',
+          600: '#ff0037', // base
           700: '#c61044',
           800: '#a21043',
           900: '#881646',
@@ -41,7 +49,7 @@ export default {
           300: '#ff8fbc',
           400: '#ff528e',
           500: '#ff1a62',
-          600: '#ff0048',
+          600: '#ff0048', // base
           700: '#c7002b',
           800: '#a30021',
           900: '#880218',
@@ -54,7 +62,8 @@ export default {
           300: '#85c8ff',
           400: '#4ca9ff',
           450: '#49a1ff',
-          500: '#2284ff',
+          500: '#2284ff', // base
+          550: '#166AE8', // used for hover on 500
           600: '#0b62ff',
           700: '#044af1',
           800: '#0b3cc2',
@@ -71,7 +80,7 @@ export default {
         'logo-red': '8px 4px 6px #ff00379a',
         'name-sm-light': '-2px 0 1px #19141a2a',
         'name-sm-dark': '-4px 0 3px #6060607a',
-        'z-logo-hover-light': '0 0 5px #2284ffd0',
+        'z-logo-hover-light': '0 0 16px #2284ff',
         'z-logo-hover-dark': '0 0 5px #b7ddfff0',
       },
       fontFamily: {
