@@ -68,12 +68,12 @@ const Body = () => {
                   {/* Image Grid */}
                   <div
                     aria-hidden="true"
-                    className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+                    className="lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
                   >
                     <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                       <div className="flex items-center space-x-6 lg:space-x-8">
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                          <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100 transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/A_Visual_Violation-600px-c7-blur3x.jpg"
                               alt="Art: A Visual Violation"
@@ -83,10 +83,10 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img01")}
                               src="/assets/A_Visual_Violation-600px-c7.jpg"
                               alt="Art: A Visual Violation"
-                              className="hidden img01 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img01 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/The_Chroma_Passage-600px-c7-blur3x.jpg"
                               alt="Art: The Chroma Passage"
@@ -96,12 +96,12 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img02")}
                               src="/assets/The_Chroma_Passage-600px-c7.jpg"
                               alt="Art: The Chroma Passage"
-                              className="hidden img02 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img02 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
                         </div>
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/Mark_of_Manifestation-600px-c7-blur3x.jpg"
                               alt="Art: The Mark of Manifestation"
@@ -111,10 +111,10 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img03")}
                               src="/assets/Mark_of_Manifestation-600px-c7.jpg"
                               alt="Art: The Mark of Manifestation"
-                              className="hidden img03 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img03 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/A_Reflection_of_Self-600px-c7-blur3x.jpg"
                               alt="Art: A Reflection of Self"
@@ -124,10 +124,10 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img04")}
                               src="/assets/A_Reflection_of_Self-600px-c7.jpg"
                               alt="Art: A Reflection of Self"
-                              className="hidden img04 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img04 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/A_System_of_Structure-600px-c7-blur3x.jpg"
                               alt="Art: A System of Structure"
@@ -137,12 +137,12 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img05")}
                               src="/assets/A_System_of_Structure-600px-c7.jpg"
                               alt="Art: A System of Structure"
-                              className="hidden img05 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img05 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
                         </div>
                         <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/The_Crux_of_Crisis-600px-c7-blur3x.jpg"
                               alt="Art: The Crux of Crisis"
@@ -152,10 +152,10 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img06")}
                               src="/assets/The_Crux_of_Crisis-600px-c7.jpg"
                               alt="Art: The Crux of Crisis"
-                              className="hidden img06 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img06 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
-                          <div className="h-64 w-44 overflow-hidden rounded-lg">
+                          <div className="h-64 w-44 overflow-hidden rounded-lg transition-all ease-out duration-[600ms] hover:transition-all hover:ease-out hover:duration-[600ms] hover:drop-shadow-[0_0_12px_#99999990] dark:hover:drop-shadow-[0_0_18px_#bbbbbb3b]">
                             <img
                               src="/assets/Helical_Frenzy-600px-c7-blur3x.jpg"
                               alt="Art: Helical Frenzy"
@@ -165,7 +165,7 @@ const Body = () => {
                               onLoad={() => loadImgHandler("img07")}
                               src="/assets/Helical_Frenzy-600px-c7.jpg"
                               alt="Art: Helical Frenzy"
-                              className="hidden img07 z-10 h-full w-full object-cover object-center rounded-lg pointer-events-none select-none"
+                              className="hidden img07 z-10 h-full w-full object-cover object-center rounded-lg brightness-[.96] border-solid border dark:border-2 border-transparent transition-all duration-200 ease-out hover:brightness-[1.01] hover:border-neutral-400/50 dark:hover:border-neutral-500/60 hover:transition-all hover:duration-200 hover:ease-out select-none"
                             />
                           </div>
                         </div>
