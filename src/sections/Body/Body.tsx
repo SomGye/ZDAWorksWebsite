@@ -187,7 +187,7 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-3 pl-4 lg:pl-0 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 pl-4 lg:pl-0 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Downloads{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -208,7 +208,7 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-3 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Art{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -229,7 +229,7 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-3 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Prints{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
