@@ -73,6 +73,8 @@ export default {
         }
       },
       dropShadow: {
+        'link-light': '14px 7px 7px #cccccc6a',
+        'link-dark': '0px 0px 2px #22222215',
         'logo-light': '20px 8px 4px #19141a35',
         'logo-dark': '8px 4px 6px #606060b5',
         'logo-blue': '8px 4px 6px #2284ff9a',
