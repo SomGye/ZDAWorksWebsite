@@ -231,7 +231,7 @@ const Body = () => {
           <h2
             className={`mb-4 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
-            Prints{" "}
+            Shop{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
