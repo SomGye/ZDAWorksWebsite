@@ -182,7 +182,7 @@ const Body = () => {
       <div className="grid relative text-center rounded-lg max-w-[75vw] lg:max-w-5xl 3xl:max-w-6xl 4xl:max-w-7xl lg:w-full lg:grid-cols-3 lg:text-center lg:gap-12 3xl:gap-20 4xl:gap-24 4k:gap-28 lg:rounded-lg dark:border-neutral-950 z-30">
         <a
           href="https://ko-fi.com/zerodayanubis"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent drop-shadow-link-light dark:drop-shadow-link-dark px-5 py-4 transition-all duration-300 dark:duration-200 ease-out hover:border-gray-200/30 hover:dark:border-neutral-800/25 hover:bg-gray-200/75 hover:dark:bg-neutral-800/30 motion-reduce:transition-none"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -203,7 +203,7 @@ const Body = () => {
         </a>
         <a
           href="https://www.zerodayanubis.com"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent drop-shadow-link-light dark:drop-shadow-link-dark px-5 py-4 transition-all duration-300 dark:duration-200 ease-out hover:border-gray-200/30 hover:dark:border-neutral-800/25 hover:bg-gray-200/75 hover:dark:bg-neutral-800/30 motion-reduce:transition-none"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -224,7 +224,7 @@ const Body = () => {
         </a>
         <a
           href="https://tinyurl.com/ZDAPrints"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent drop-shadow-link-light dark:drop-shadow-link-dark px-5 py-4 transition-all duration-300 dark:duration-200 ease-out hover:border-gray-200/30 hover:dark:border-neutral-800/25 hover:bg-gray-200/75 hover:dark:bg-neutral-800/30 motion-reduce:transition-none"
           target="_blank"
           rel="noopener noreferrer"
         >
