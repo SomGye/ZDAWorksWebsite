@@ -187,9 +187,9 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-3 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-3 pl-4 lg:pl-0 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
-            Ko-fi{" "}
+            Downloads{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
@@ -198,7 +198,7 @@ const Body = () => {
             className={`m-0 text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
             Download high-quality versions of <br />
-            ZDA Media for free
+            media for free and support ZDA
           </p>
         </a>
         <a
@@ -210,7 +210,7 @@ const Body = () => {
           <h2
             className={`mb-3 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
-            ZDA Website{" "}
+            Art{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
@@ -218,7 +218,7 @@ const Body = () => {
           <p
             className={`m-0 max-w-[30ch] text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
-            Home of ZDA&apos;s art portfolio <br />
+            ZDA&apos;s art portfolio <br />
             and commission info
           </p>
         </a>
@@ -231,7 +231,7 @@ const Body = () => {
           <h2
             className={`mb-3 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
-            Print Shop{" "}
+            Prints{" "}
             <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
@@ -239,7 +239,7 @@ const Body = () => {
           <p
             className={`m-0 max-w-[30ch] text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
-            Get art prints, posters, phone cases, stickers and more
+            Art prints, posters, phone cases, stickers and more
           </p>
         </a>
       </div>
