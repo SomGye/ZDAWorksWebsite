@@ -239,7 +239,7 @@ const Body = () => {
           <p
             className={`m-0 max-w-[30ch] text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
-            Art prints, posters, phone cases, stickers and more
+            Art prints, posters, cards, stickers and more
           </p>
         </a>
       </div>
