@@ -40,7 +40,7 @@ const Body = () => {
                   height={67}
                 />
                 <p className="mt-4 font-outfit text-xl 3xl:text-2xl 4xl:text-3xl 4k:text-4xl tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
-                  Welcome to the Hub of{" "}
+                  Welcome to the Hub of{" "}<br className="block sm:hidden" />
                   <span className="font-medium tracking-wide ml-[1px]">
                     Abstract Media Creation
                   </span>
