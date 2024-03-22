@@ -6,6 +6,7 @@ import Footer from "./sections/Footer/Footer";
 import { useRecoilState } from "recoil";
 import { logoAtom } from "./states/LogoAtom";
 import LogoPage from "./LogoPage";
+import { Analytics } from "@vercel/analytics/react";
 
 type Props = {
   route: string;
@@ -34,6 +35,7 @@ const App = ({ route }: Props) => {
 
   return (
     <>
+      <Analytics />
       <main className="bg-zdaBG-light dark:bg-zdaBG-dark flex min-h-screen flex-col items-center justify-evenly p-0 xs:px-12 sm:px-24 transition ease-out duration-500">
         {!logoPage && (
           <>
@@ -42,9 +44,7 @@ const App = ({ route }: Props) => {
             <Footer />
           </>
         )}
-        {logoPage && (
-          <LogoPage />
-        )}
+        {logoPage && <LogoPage />}
       </main>
     </>
   );
