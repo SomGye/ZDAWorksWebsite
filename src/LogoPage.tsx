@@ -9,6 +9,7 @@ import zdaWorks_redpink from "/zdaworks_redpink.svg";
 import zdaWorks_zdared from "/zdaworks_zdared.svg";
 import zda_dark from "/zerodayanubis_dark.svg";
 import zda_light from "/zerodayanubis_light.svg";
+import { altLongTextLogo, altZDAWorksLogoBlue, altZDAWorksLogoMain, altZDAWorksLogoRed, altZDAWorksLogoRedpink } from "./AltText";
 
 const LogoPage = () => {
   const theme = useRecoilValue(themeAtom);
@@ -22,7 +23,7 @@ const LogoPage = () => {
           <img
             className="relative md:scale-[1.1] lg:scale-[1.2] 3xl:w-[368px] 3xl:h-[84px] drop-shadow-logo-light dark:drop-shadow-logo-dark select-none"
             src={theme === "dark" ? zdaWorks_dark : zdaWorks_light}
-            alt="ZDAWorks Logo"
+            alt={altZDAWorksLogoMain}
             width={294}
             height={67}
           />
@@ -30,7 +31,7 @@ const LogoPage = () => {
           <img
             className="relative md:scale-[1.1] lg:scale-[1.2] 3xl:w-[368px] 3xl:h-[84px] drop-shadow-logo-blue dark:drop-shadow-logo-blue select-none"
             src={zdaWorks_blue}
-            alt="ZDAWorks Logo in Blue"
+            alt={altZDAWorksLogoBlue}
             width={294}
             height={67}
           />
@@ -62,7 +63,7 @@ const LogoPage = () => {
           <img
             className="relative md:scale-[1.1] lg:scale-[1.2] 3xl:w-[368px] 3xl:h-[84px] drop-shadow-logo-redpink dark:drop-shadow-logo-redpink select-none"
             src={zdaWorks_redpink}
-            alt="ZDAWorks Logo in Redpink"
+            alt={altZDAWorksLogoRedpink}
             width={294}
             height={67}
           />
@@ -70,7 +71,7 @@ const LogoPage = () => {
           <img
             className="relative md:scale-[1.1] lg:scale-[1.2] 3xl:w-[368px] 3xl:h-[84px] drop-shadow-logo-red dark:drop-shadow-logo-red select-none"
             src={zdaWorks_zdared}
-            alt="ZDAWorks Logo in Red"
+            alt={altZDAWorksLogoRed}
             width={294}
             height={67}
           />
@@ -79,7 +80,7 @@ const LogoPage = () => {
           By{" "}
           <img
             src={theme === "dark" ? zda_dark : zda_light}
-            alt="ZeroDayAnubis Logo"
+            alt={altLongTextLogo}
             className="ml-[2px] 3xl:w-[274px] 3xl:h-[45px] 4xl:w-[329px] 4xl:h-[54px] 4k:w-[420px] 4k:h-[69px] pointer-events-none select-none"
             width={219}
             height={36}

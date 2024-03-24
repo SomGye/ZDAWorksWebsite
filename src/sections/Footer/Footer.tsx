@@ -3,6 +3,7 @@ import { useRecoilValue } from "recoil";
 import { themeAtom } from "../../states/ThemeAtom";
 import zda_dark from "/zerodayanubis_dark.svg";
 import zda_light from "/zerodayanubis_light.svg";
+import { altLongTextLogo } from "../../AltText";
 
 const Footer = () => {
   const theme = useRecoilValue(themeAtom);
@@ -18,7 +19,7 @@ const Footer = () => {
           By{" "}
           <img
             src={theme === "dark" ? zda_dark : zda_light}
-            alt="ZeroDayAnubis Logo"
+            alt={altLongTextLogo}
             className="ml-[2px] max-w-[50vw] 3xl:w-[274px] 3xl:h-[45px] 4xl:w-[329px] 4xl:h-[54px] 4k:w-[420px] 4k:h-[69px] pointer-events-none select-none"
             width={219}
             height={36}
