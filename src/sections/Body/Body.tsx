@@ -246,7 +246,7 @@ const Body = () => {
       {/* Privacy Policy */}
       <a
         href="http://tinyurl.com/ZDAWorksPrivacy"
-        className="mx-0 mt-4 mb-4 sm:mt-0 sm:mb-8 lg:mt-0 lg:mb-2 font-semibold text-xs text-zdaBlue-400 hover:text-zdaBlue-500 active:text-zdaBlue-600"
+        className="mx-0 mt-4 mb-4 sm:mt-0 sm:mb-8 lg:mt-0 lg:mb-2 font-semibold text-xs text-zdaBlue-950 dark:text-zdaBlue-400 hover:text-zdaBlue-500 dark:hover:text-zdaBlue-500 active:text-zdaBlue-600 dark:active:text-zdaBlue-600 transition-colors duration-200 ease-out"
         target="_blank"
         rel="noopener noreferrer"
         title="Privacy Policy"
