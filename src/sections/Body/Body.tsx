@@ -60,12 +60,12 @@ const Body = () => {
                   more
                 </p>
                 <a
-                  className="block w-min"
-                  href="https://www.zerodayanubis.com/portfolio"
+                  className="block z-10 w-min pointer-events-auto cursor-pointer"
+                  href="https://www.zerodayanubis.com/about"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <p className="mt-4 font-outfit font-light text-sm 3xl:text-lg 4xl:text-xl 4k:text-2xl text-neutral-600 dark:text-neutral-500 pointer-events-none select-none">
+                  <p className="mt-4 font-outfit font-light text-sm 3xl:text-lg 4xl:text-xl 4k:text-2xl text-neutral-600 dark:text-neutral-500 select-none">
                     By&nbsp;&nbsp;
                     <span className="text-lg 3xl:text-xl 4xl:text-2xl 4k:text-3xl ml-[1px] drop-shadow-name-sm-light dark:drop-shadow-name-sm-dark">
                       ⌞ZERODAYANUBIS⌝

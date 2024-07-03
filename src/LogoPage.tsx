@@ -76,14 +76,15 @@ const LogoPage = () => {
             height={67}
           />
         </div>
-        <div className="flex items-center text-sm sm:text-base 3xl:text-xl 4xl:text-2xl 4k:text-3xl font-light font-outfit text-zdaText-dark dark:text-zdaText-light pointer-events-none select-none">
+        <div className="flex items-center text-sm sm:text-base 3xl:text-xl 4xl:text-2xl 4k:text-3xl font-light font-outfit text-zdaText-dark dark:text-zdaText-light select-none">
           By{" "}
           <img
             src={theme === "dark" ? zda_dark : zda_light}
             alt={altLongTextLogo}
-            className="ml-[2px] 3xl:w-[274px] 3xl:h-[45px] 4xl:w-[329px] 4xl:h-[54px] 4k:w-[420px] 4k:h-[69px] pointer-events-none select-none"
+            className="ml-[2px] 3xl:w-[274px] 3xl:h-[45px] 4xl:w-[329px] 4xl:h-[54px] 4k:w-[420px] 4k:h-[69px] cursor-pointer select-none"
             width={219}
             height={36}
+            onClick={() => window.open("https://www.zerodayanubis.com/about", "_blank")}
           />
         </div>
       </div>
