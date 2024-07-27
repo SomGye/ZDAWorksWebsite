@@ -20,9 +20,7 @@ const Header = () => {
           height={36}
           onClick={() => window.location.replace("/logo")}
         />
-        <div className="hidden xxs:block 3xl:text-xl 4xl:text-2xl 4k:text-3xl">
-          ZDA Works
-        </div>
+        <div className="hidden xxs:block 3xl:text-xl">ZDA Works</div>
         <div className="cursor-pointer focus-visible:outline-none mr-2 lg:flex lg:static lg:w-auto">
           <ThemeMenu />
         </div>
