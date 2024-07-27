@@ -49,13 +49,13 @@ const Body = () => {
                   width={294}
                   height={67}
                 />
-                <p className="mt-4 font-outfit text-xl 3xl:text-2xl 4xl:text-3xl 4k:text-4xl tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
+                <p className="mt-4 font-outfit text-xl 3xl:text-2xl tracking-tight font-light text-neutral-800 dark:text-neutral-300 pointer-events-none select-none">
                   Welcome to the Hub of <br className="block sm:hidden" />
                   <span className="font-medium tracking-wide ml-[1px]">
                     Abstract Media Creation
                   </span>
                 </p>
-                <p className="mt-4 font-light text-md 3xl:text-lg 4xl:text-xl 4k:text-2xl tracking-wide text-neutral-700 dark:text-neutral-400 max-w-[24ch] align-center italic pointer-events-none select-none">
+                <p className="mt-4 font-light text-md 3xl:text-lg tracking-wide text-neutral-700 dark:text-neutral-400 max-w-[24ch] align-center italic pointer-events-none select-none">
                   Explore the world of abstract arts, logos, wallpapers, and
                   more
                 </p>
@@ -65,9 +65,9 @@ const Body = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <p className="mt-4 font-outfit font-light text-sm 3xl:text-lg 4xl:text-xl 4k:text-2xl text-neutral-600 dark:text-neutral-500 select-none">
+                  <p className="mt-4 font-outfit font-light text-sm 3xl:text-lg text-neutral-600 dark:text-neutral-500 select-none">
                     By&nbsp;&nbsp;
-                    <span className="text-lg 3xl:text-xl 4xl:text-2xl 4k:text-3xl ml-[1px] drop-shadow-name-sm-light dark:drop-shadow-name-sm-dark">
+                    <span className="text-lg 3xl:text-xl ml-[1px] drop-shadow-name-sm-light dark:drop-shadow-name-sm-dark">
                       ⌞ZERODAYANUBIS⌝
                     </span>
                   </p>
@@ -197,15 +197,15 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-4 pl-4 lg:pl-0 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 pl-4 lg:pl-0 text-2xl 3xl:text-3xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Downloads{" "}
-            <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            <span className="inline-block mx-2 mt-[0.325rem] transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
           </h2>
           <p
-            className={`m-0 text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
+            className={`m-0 text-sm 3xl:text-base text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
             Download high-quality versions of <br />
             media for free and support ZDA
@@ -218,15 +218,15 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-4 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 text-2xl 3xl:text-3xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Art{" "}
-            <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            <span className="inline-block mx-2 mt-[0.325rem] transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
           </h2>
           <p
-            className={`m-0 max-w-[30ch] text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
+            className={`m-0 max-w-[30ch] text-sm 3xl:text-base text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
             ZDA&apos;s art portfolio <br />
             and commission info
@@ -239,17 +239,17 @@ const Body = () => {
           rel="noopener noreferrer"
         >
           <h2
-            className={`mb-4 text-2xl 3xl:text-3xl 4k:text-4xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
+            className={`mb-4 text-2xl 3xl:text-3xl font-semibold inline-flex items-center text-zdaText-dark dark:text-zdaText-light select-none`}
           >
             Shop{" "}
-            <span className="inline-block mx-2 transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+            <span className="inline-block mx-2 mt-[0.325rem] transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               {rightArrowBigIcon}
             </span>
           </h2>
           <p
-            className={`m-0 max-w-[30ch] text-sm 3xl:text-base 4xl:text-lg 4k:text-xl text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
+            className={`m-0 max-w-[30ch] text-sm 3xl:text-base text-balance tracking-wide opacity-75 dark:opacity-60 text-zdaText-darker dark:text-zdaText-lighter select-none`}
           >
-            Art prints, posters, cards, stickers and more
+            Art prints, posters, <br /> cards, stickers and more
           </p>
         </a>
       </div>
