@@ -233,7 +233,7 @@ const Body = () => {
           </p>
         </a>
         <a
-          href="https://tinyurl.com/ZDAPrints"
+          href="https://go.zda.works/prints"
           className="group rounded-lg border border-transparent drop-shadow-link-light dark:drop-shadow-link-dark px-5 py-4 transition-all duration-300 dark:duration-200 ease-out hover:border-gray-200/30 hover:dark:border-neutral-800/25 hover:bg-gray-200/75 hover:dark:bg-neutral-800/30 motion-reduce:transition-none"
           target="_blank"
           rel="noopener noreferrer"
@@ -255,7 +255,7 @@ const Body = () => {
       </div>
       {/* Privacy Policy */}
       <a
-        href="http://tinyurl.com/ZDAWorksPrivacy"
+        href="https://go.zda.works/privacyworks"
         className="mx-0 mt-4 mb-4 sm:mt-0 sm:mb-8 lg:mt-0 lg:mb-2 font-semibold text-xs text-zdaBlue-950 dark:text-zdaBlue-400 hover:text-zdaBlue-500 dark:hover:text-zdaBlue-500 active:text-zdaBlue-600 dark:active:text-zdaBlue-600 transition-colors duration-200 ease-out"
         target="_blank"
         rel="noopener noreferrer"
