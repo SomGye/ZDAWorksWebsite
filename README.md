@@ -11,7 +11,7 @@
   - *Vercel*: for generous free web hosting
   - *Tailwind CSS*: for inline CSS building and enabling light and modular components
 ### Setup/Maintenance
-- Fork and Clone the repo at https://github.com/SomGye/ZDAWorksWebsite
+- Fork and Clone the repo at https://github.com/Zycient/ZDAWorksWebsite
   - This uses Vite.js with TypeScript and ESLint enabled. Use `npm start` to run a live dev build, or `npm run build` to compile a production build.
 - Updating Routes: 
   - Routes are essentially objects in the BrowserRouter array in the `main.tsx` file. You can add a route by adding another object with a `path` and a <App> element with a new `route` string argument. You can update a route by simply updating the `path` and `route` string argument as well. 
